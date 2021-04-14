@@ -11,6 +11,7 @@
                 src="https://previews.123rf.com/images/pakkalin/pakkalin1503/pakkalin150300117/38526708-accueil-ic%C3%B4ne.jpg"
               ></b-avatar></router-link
           ></b-button>
+          <!--modification du profil-->
           <b-button v-b-modal.modal-1 @click="profil"
             ><b-avatar :src="profilePicture"></b-avatar
           ></b-button>
@@ -54,6 +55,7 @@
               variant="outline-primary"
               >Valider</b-button
             >
+            <!--fin-->
           </b-modal>
           <b-button @click="logout">Se déconnecter</b-button>
         </b-button-group>
@@ -86,11 +88,12 @@ export default {
       localStorage.clear("token");
       this.$router.push("/Connexion");
     },
-
+    //toggle
     modifier() {
       this.cachee = !this.cachee;
       this.displayValue = !this.displayValue;
     },
+    //fonction validé qui envoit au serveur.
     validModifier: async function() {
       this.modifier();
       const body = {
