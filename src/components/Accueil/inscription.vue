@@ -81,7 +81,7 @@ export default {
   flex-direction: column;
 }
 
-/*salu*/
+/*salut*/
 .titleForm {
   color: white;
   font-family: "Anton", sans-serif;
