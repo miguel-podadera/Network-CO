@@ -25,7 +25,9 @@
         <option value="Commercial">Commercial</option>
         <option value="Comptabilité">Comptabilité</option>
       </select>
-      <button class="btnSubmit" type="submit" @click="callAjouter">valider</button>
+      <button class="btnSubmit" type="submit" @click="callAjouter">
+        valider
+      </button>
     </form>
   </div>
 </template>
@@ -59,55 +61,54 @@ export default {
 };
 </script>
 <style scoped>
-
 .active {
   background-color: red;
 }
 
-.inscription{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  height:80vh;
-
+.inscription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
 }
 .formulaire {
-  border-radius:15px;
-  background-color:#0275D8;
-  padding:30px;
-  margin-left:10vw;
-  width:20vw;
+  border-radius: 15px;
+  background-color: #0275d8;
+  padding: 30px;
+  margin-left: 10vw;
+  width: 20vw;
   display: flex;
   flex-direction: column;
 }
 
-.titleForm{
-  color:white;
-  font-family:'Anton', sans-serif;
-  text-transform:uppercase;
-  margin-bottom:2vh;
+/*salu*/
+.titleForm {
+  color: white;
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 2vh;
 }
 
-input{
-  margin-bottom:20px;
-  border-radius:8px;
-  border:none;
+input {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
 }
 
-.titleWebsite{
-  text-transform:uppercase;
-  font-family:'Anton', sans-serif;
-  color:#F0AD4E;
-  font-size:5rem;
-  text-shadow:1px 1px white, -1px -1px #444;
+.titleWebsite {
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+  color: #f0ad4e;
+  font-size: 5rem;
+  text-shadow: 1px 1px white, -1px -1px #444;
 }
 
-.btnSubmit{
-  font-family:'Anton', sans-serif;
-  text-transform:uppercase;
-  border-radius:8px;
-  margin-top:20px;
-  background-color:#F0AD4E;
-  color:white;
+.btnSubmit {
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  border-radius: 8px;
+  margin-top: 20px;
+  background-color: #f0ad4e;
+  color: white;
 }
 </style>
