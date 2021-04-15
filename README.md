@@ -1,4 +1,4 @@
-
+### NETWORK&CO
 Network&Co est un réseau interne pour entreprise réalisé en Vue.js, le but étant de faire circuler l'information le plus efficacement possible. les fonctionnalités sont les suivantes :
 - l'inscription, la connexion & la deconnexion, en faisant des requêtes GET, POST, PUT vers l'API, et en stockant un token de connexion.
 - la publication de post, le like de post, et commenter des posts.
