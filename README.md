@@ -1,7 +1,7 @@
 # network
 
 ## salut
-npm install
+npm install test 
 ```
 
 ### Compiles and hot-reloads for development
